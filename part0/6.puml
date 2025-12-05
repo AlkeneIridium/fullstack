@@ -1,0 +1,6 @@
+@startuml 6
+note over Browser : The new note is submitted as a JSON with datetime.
+Browser->Server : HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+Server-->Browser : 201 Created
+note over Browser : The list of notes is updated.
+@enduml
